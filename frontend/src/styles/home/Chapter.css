@@ -1,0 +1,30 @@
+.chapter-container {
+    width: 600px;
+    height: 100px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chapter-container .chapter-img {
+    flex-basis: 30%;
+}
+.chapter-container .chapter-img img {
+    width: 100%;
+}
+.chapter-container .chapter-info {
+    flex-basis: 70%;
+    flex-direction: column;
+}
+.chapter-container .chapter-info h1 .chapter-number {
+    font-weight: 600;
+    font-size: 16px;
+}
+.chapter-container .chapter-info h1 .chapter-name {
+    font-weight: 500;
+    font-size: 17px;
+}
+.chapter-container .chapter-info p {
+    font-weight: 800;
+    font-size: 17px;
+}

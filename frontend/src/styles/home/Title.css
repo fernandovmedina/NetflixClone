@@ -1,0 +1,98 @@
+.title {
+    width: 250px;
+    height: 200px;
+}
+.title img {
+    width: 100%;
+    border-radius: 6px;
+}
+.inactive {
+    display: none;
+}
+.title:hover {
+    width: 250px;
+    height: 300px;
+    transition: 0.5s;
+}
+.title:hover .inactive {
+    display: block;
+    border-radius: 6px;
+}
+.title:hover .active {
+    display: none;
+}
+.title:hover .hover-container .inactive {
+    width: 250px;
+    height: 325px;
+}
+.title:hover .hover-container .hover-info {
+    width: 250px;
+    height: 70px;
+    background-color: #141414;
+    border-radius: 4px;
+}
+.title:hover .hover-container .hover-info .hover-icons-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.title:hover .hover-container .hover-info .hover-icons-info .hover-icons-info-left {
+    flex-basis: 80%;
+}
+.title:hover .hover-container .hover-info .hover-icons-info .hover-icons-info-right {
+    flex-basis: 20%;
+}
+.title:hover .hover-container .hover-info .hover-icons-info .hover-icons-info-left img {
+    width: 23px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.title:hover .hover-container .hover-info .hover-icons-info .hover-icons-info-left img:nth-child(1) {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.title:hover .hover-container .hover-info .hover-icons-info .hover-icons-info-right img {
+    width: 23px;
+    margin-top: 13px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.title:hover .hover-container .hover-info .hover-info-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3px;
+}
+.title:hover .hover-container .hover-info .hover-info-info p:nth-child(1) {
+    color: green;
+    margin-left: -18px;
+    font-size: 16px;
+}
+.title:hover .hover-container .hover-info .hover-info-info p:nth-child(2) {
+    margin-right: -15px;
+    font-size: 14px;
+    margin-top: 2px;
+    font-weight: 500;
+}
+.hidden {
+    display: none;
+}
+.title-window .hidden {
+    width: 850px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    border-radius: 7px;
+}
+.title-window .title-window-img .hidden {
+    width: 850px;
+    height: 400px;
+}
+.title-window .title-window-img img .hidden {
+    width: 100%;
+    border-radius: 7px;
+}
+.title-window .tile-window-chapters .hidden {
+    width: 800px;
+}

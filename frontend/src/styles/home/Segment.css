@@ -1,0 +1,10 @@
+.segment-container {
+    background-color: #000;
+    padding-left: 50px;
+    margin-top: -60px;
+    margin-bottom: -20px;
+}
+.segment-container h2 {
+    color: #fff;
+    font-size: 19px;
+}
